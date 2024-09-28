@@ -1,0 +1,125 @@
+/* Tổng quan cho toàn trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ADD8E6; /* Xanh dương nhạt */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.auth-forms {
+    display: flex;
+}
+
+.auth-forms form {
+    margin-left: 10px;
+    background: none; /* Loại bỏ nền của form */
+    border: none; /* Loại bỏ đường viền của form */
+}
+
+.auth-forms input {
+    padding: 10px; /* Tăng kích thước ô nhập */
+    margin-right: 5px;
+    border: 1px solid #ccc; /* Đường viền nhẹ */
+    border-radius: 5px; /* Bo góc nhẹ */
+    font-size: 16px; /* Kích thước chữ lớn hơn */
+    background: transparent; /* Loại bỏ nền của ô nhập */
+}
+
+.auth-forms button {
+    background-color: transparent; /* Không có màu nền cho nút */
+    color: #007BFF; /* Màu chữ nút */
+    border: 1px solid #007BFF; /* Đường viền màu xanh */
+    padding: 10px 15px; /* Tăng kích thước nút */
+    border-radius: 5px; /* Bo góc nhẹ */
+    font-size: 16px; /* Kích thước chữ lớn hơn */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Hiệu ứng chuyển động */
+}
+
+.auth-forms button:hover {
+    background-color: #ADD8E6; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+    transform: translateY(-2px); /* Nâng nút lên một chút khi hover */
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ADD8E6; /* Xanh dương nhạt khi hover */
+    border-radius: 5px;
+}
+
+/* Phần nội dung chính */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #007BFF; /* Xanh dương */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
